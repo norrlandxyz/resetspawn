@@ -1,0 +1,15 @@
+name: resetspawn
+version: '${project.version}'
+main: xyz.norrland.resetspawn.Resetspawn
+api-version: '1.20'
+
+commands:
+  resetspawn:
+    description: "Resets your spawn"
+    usage: "/resetspawn"
+    permission: resetspawn.resetspawn
+
+permissions:
+  resetspawn.resetspawn:
+    description: "Reset your spawn"
+    default: true
