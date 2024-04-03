@@ -7,7 +7,6 @@ public final class Resetspawn extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getLogger().info("Hello World!");
         this.getCommand("resetspawn").setExecutor(new CommandResetspawn());
     }
 
